@@ -1,0 +1,58 @@
+img {
+  float: left;
+}
+
+table {
+  border: 1px solid grey;
+}
+
+th {
+  border: 1px solid grey;
+}
+
+td {
+  border: 1px solid grey;
+}
+
+tbody tr th {
+  font-style: italic;
+  font-weight: normal;
+}
+
+tbody tr td:first-of-type {
+  color: red;
+}
+
+tbody tr td:nth-of-type(3) {
+  color: blue;
+}
+
+tbody tr:nth-of-type(odd) {
+  background-color: lightgreen;
+}
+
+tbody tr:nth-of-type(even) {
+  background-color: lightblue;
+}
+
+dt:hover + dd {
+  background-color: purple;
+}
+
+.outer-content {
+  background-color: pink;
+  height: 60px;
+  width: 75%;
+  margin-top: 20px;
+  /* Credit for adding padding to prevent collapsing margins http://stackoverflow.com/questions/8529695/adjusting-the-margin-top-of-a-div-inside-of-a-container-div-pushes-both-the-inne */
+  padding-top: 1px;
+}
+
+.inner-content {
+  width: 75%;
+  background-color: blue;
+  margin: 20px;
+  margin-left: auto;
+  margin-right: auto;
+  text-align: center;
+}
